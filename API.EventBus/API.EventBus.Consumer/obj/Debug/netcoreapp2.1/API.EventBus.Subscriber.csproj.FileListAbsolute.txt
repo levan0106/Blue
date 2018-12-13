@@ -1,0 +1,12 @@
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\bin\Debug\netcoreapp2.1\API.EventBus.Subscriber.deps.json
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\bin\Debug\netcoreapp2.1\API.EventBus.Subscriber.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\bin\Debug\netcoreapp2.1\API.EventBus.Subscriber.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\bin\Debug\netcoreapp2.1\API.EventBus.Entities.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\bin\Debug\netcoreapp2.1\API.EventBus.Entities.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\obj\Debug\netcoreapp2.1\API.EventBus.Subscriber.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\obj\Debug\netcoreapp2.1\API.EventBus.Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\obj\Debug\netcoreapp2.1\API.EventBus.Subscriber.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\obj\Debug\netcoreapp2.1\API.EventBus.Subscriber.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\obj\Debug\netcoreapp2.1\API.EventBus.Subscriber.csproj.CopyComplete
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\obj\Debug\netcoreapp2.1\API.EventBus.Subscriber.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscriber\obj\Debug\netcoreapp2.1\API.EventBus.Subscriber.pdb

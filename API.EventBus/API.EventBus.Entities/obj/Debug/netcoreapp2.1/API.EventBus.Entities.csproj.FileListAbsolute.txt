@@ -1,0 +1,9 @@
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\bin\Debug\netcoreapp2.1\API.EventBus.Entities.deps.json
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\bin\Debug\netcoreapp2.1\API.EventBus.Entities.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\bin\Debug\netcoreapp2.1\API.EventBus.Entities.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\obj\Debug\netcoreapp2.1\API.EventBus.Entities.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\obj\Debug\netcoreapp2.1\API.EventBus.Entities.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\obj\Debug\netcoreapp2.1\API.EventBus.Entities.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\obj\Debug\netcoreapp2.1\API.EventBus.Entities.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\obj\Debug\netcoreapp2.1\API.EventBus.Entities.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Entities\obj\Debug\netcoreapp2.1\API.EventBus.Entities.csprojAssemblyReference.cache

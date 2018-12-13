@@ -1,0 +1,7 @@
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscribe\bin\Debug\netcoreapp2.1\API.EventBus.Subscribe.deps.json
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscribe\bin\Debug\netcoreapp2.1\API.EventBus.Subscribe.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscribe\obj\Debug\netcoreapp2.1\API.EventBus.Subscribe.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscribe\obj\Debug\netcoreapp2.1\API.EventBus.Subscribe.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscribe\obj\Debug\netcoreapp2.1\API.EventBus.Subscribe.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscribe\obj\Debug\netcoreapp2.1\API.EventBus.Subscribe.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Subscribe\bin\Debug\netcoreapp2.1\API.EventBus.Entities.dll

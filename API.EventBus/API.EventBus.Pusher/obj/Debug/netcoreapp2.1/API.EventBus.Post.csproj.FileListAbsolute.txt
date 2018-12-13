@@ -1,0 +1,12 @@
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\bin\Debug\netcoreapp2.1\API.EventBus.Post.deps.json
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\bin\Debug\netcoreapp2.1\API.EventBus.Post.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\obj\Debug\netcoreapp2.1\API.EventBus.Post.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\obj\Debug\netcoreapp2.1\API.EventBus.Post.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\obj\Debug\netcoreapp2.1\API.EventBus.Post.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\obj\Debug\netcoreapp2.1\API.EventBus.Post.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\bin\Debug\netcoreapp2.1\API.EventBus.Post.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\bin\Debug\netcoreapp2.1\API.EventBus.Entities.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\bin\Debug\netcoreapp2.1\API.EventBus.Entities.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\obj\Debug\netcoreapp2.1\API.EventBus.Post.csproj.CopyComplete
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\obj\Debug\netcoreapp2.1\API.EventBus.Post.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Post\obj\Debug\netcoreapp2.1\API.EventBus.Post.pdb

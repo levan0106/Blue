@@ -1,0 +1,14 @@
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\bin\Release\netcoreapp2.1\API.EventBus.Pusher.deps.json
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\bin\Release\netcoreapp2.1\API.EventBus.Pusher.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\bin\Release\netcoreapp2.1\API.EventBus.Pusher.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\bin\Release\netcoreapp2.1\API.Core.Logging.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\bin\Release\netcoreapp2.1\API.EventBus.Entities.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\bin\Release\netcoreapp2.1\API.Core.Logging.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\bin\Release\netcoreapp2.1\API.EventBus.Entities.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\obj\Release\netcoreapp2.1\API.EventBus.Pusher.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\obj\Release\netcoreapp2.1\API.EventBus.Pusher.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\obj\Release\netcoreapp2.1\API.EventBus.Pusher.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\obj\Release\netcoreapp2.1\API.EventBus.Pusher.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\obj\Release\netcoreapp2.1\API.EventBus.Pusher.csproj.CopyComplete
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\obj\Release\netcoreapp2.1\API.EventBus.Pusher.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Pusher\obj\Release\netcoreapp2.1\API.EventBus.Pusher.pdb

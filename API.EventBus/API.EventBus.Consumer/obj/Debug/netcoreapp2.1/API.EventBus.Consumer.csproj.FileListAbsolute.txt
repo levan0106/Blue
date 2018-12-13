@@ -1,0 +1,14 @@
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\bin\Debug\netcoreapp2.1\API.EventBus.Consumer.deps.json
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\bin\Debug\netcoreapp2.1\API.EventBus.Consumer.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\bin\Debug\netcoreapp2.1\API.EventBus.Consumer.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\bin\Debug\netcoreapp2.1\API.Core.Logging.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\bin\Debug\netcoreapp2.1\API.EventBus.Entities.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\bin\Debug\netcoreapp2.1\API.Core.Logging.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\bin\Debug\netcoreapp2.1\API.EventBus.Entities.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\obj\Debug\netcoreapp2.1\API.EventBus.Consumer.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\obj\Debug\netcoreapp2.1\API.EventBus.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\obj\Debug\netcoreapp2.1\API.EventBus.Consumer.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\obj\Debug\netcoreapp2.1\API.EventBus.Consumer.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\obj\Debug\netcoreapp2.1\API.EventBus.Consumer.csproj.CopyComplete
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\obj\Debug\netcoreapp2.1\API.EventBus.Consumer.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.Consumer\obj\Debug\netcoreapp2.1\API.EventBus.Consumer.pdb

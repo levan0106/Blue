@@ -1,0 +1,64 @@
+﻿@using API.EventBus.Entities;
+@model List<Stoc>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+
+    <script src="~/scripts/jquery-1.6.4.js"></script>
+    @*<script src="~/scripts/jquery.signalR-1.0.1.js"></script>
+    <script src='/signalr/hubs'></script>*@
+</head>
+<div class="container">
+    <span id="stocValue"></span>
+
+    @using (Html.BeginForm("Push", "Home", "FormMethod.Post"))
+    {
+        <label>Kağıt Çeşidi:</label>
+        <select name="Name" id="Name" onchange="setValue(this.options[this.selectedIndex])">
+            @foreach (var stock in Model)
+            {
+                <option value="@stock.Name" id="@stock.ID" price="@stock.Value">@stock.Name</option>
+            }
+        </select>
+        <input type="text" name="Value" id="Value">
+        <input type="hidden" name="ID" id="ID">
+        <input type="submit" value="submit" class="btn btn-success">
+    }
+
+</div>
+@section scripts {
+    <script>
+        function setValue(selectedOption) {
+            var price = selectedOption.getAttribute('price');
+            document.getElementById("Value").value = price;
+
+            var stocID = selectedOption.id;
+            document.getElementById("ID").value = stocID;
+        }
+    </script>
+    @*<script>
+            //let connection = new signalR.HubConnection('https://localhost:44340/stochub');
+
+            var connection = $.connection('https://localhost:44340/stochub');
+            $.connection.hub.start().done(function () {
+                //connected
+            });
+
+            connection.on('SetConnectionId', data => {
+                console.log("ConnectionID : " + data);
+                var result = connection.invoke('ConnectGroup', 'Bitcoin', data);
+                console.log(result);
+
+            });
+
+            connection.on('ChangeStocValue', data => {
+                console.log(JSON.stringify(data));
+                alert("New Price : " + data.value + " ₺");
+                document.getElementById("stocValue").innerHTML = data.value;
+            });
+
+            connection.start()
+        </script>*@
+}

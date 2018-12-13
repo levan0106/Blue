@@ -1,0 +1,12 @@
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\bin\Debug\netcoreapp2.1\API.EventBus.SignalR.deps.json
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\bin\Debug\netcoreapp2.1\API.EventBus.SignalR.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\obj\Debug\netcoreapp2.1\API.EventBus.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\obj\Debug\netcoreapp2.1\API.EventBus.SignalR.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\obj\Debug\netcoreapp2.1\API.EventBus.SignalR.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\bin\Debug\netcoreapp2.1\API.EventBus.SignalR.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\bin\Debug\netcoreapp2.1\API.EventBus.Entities.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\bin\Debug\netcoreapp2.1\API.EventBus.Entities.pdb
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\obj\Debug\netcoreapp2.1\API.EventBus.SignalR.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\obj\Debug\netcoreapp2.1\API.EventBus.SignalR.csproj.CopyComplete
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\obj\Debug\netcoreapp2.1\API.EventBus.SignalR.dll
+C:\Users\levan\code\blue\API.EventBus\API.EventBus.SignalR\obj\Debug\netcoreapp2.1\API.EventBus.SignalR.pdb
