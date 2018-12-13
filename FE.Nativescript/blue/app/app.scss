@@ -1,0 +1,86 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/light';
+
+// Override variables here
+
+@import '~nativescript-theme-core/scss/index';
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+
+.fa {
+  font-family: FontAwesome, fontawesome-webfont;
+}
+
+ActionBar {
+  background-color: #2d5bb6;
+  color: #d3d4d5;
+  border-bottom-width:1px;
+  border-color:#ffffff;
+}
+
+.home-panel{
+  background: #f1f1f3;
+}
+.panel{
+  background: #ffffff;
+}
+.panel-padding{
+  padding: 20px 40px;
+}
+.panel-margin{
+  margin: 20px 0px;
+}
+
+.title{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.title-small{
+  font-size: 16px;
+}
+.title-large{
+  font-size: 20px;
+}
+.search{
+  border-bottom-width: 1;
+  border-color:#2d5bb6;
+  placeholder-color:#a4aecd;
+  font-size: 14px;
+}
+.btn-select-border{
+  border-radius: 100%;
+  border-color: #666666;
+  border-width:2px;
+  padding: 0px 40px;
+}
+.btn-border{
+  border-radius: 100%;
+  border-color: #666666;
+  border-width:0px;
+  padding: 10px;
+}
+
+.btn-submit{
+  background: #2d5bb6;
+  color: #ffffff;
+}
+.border-bottom{
+  border-bottom-color: #666666;
+  border-bottom-width:1px;
+  padding-bottom: 20px;
+}
+
+.btn{        
+  border-radius: 100%;
+  margin: 10px 0;
+  min-height: 100px;
+}
+
+.border-bottom{    
+  border-bottom-width: 1;
+  border-color:#dfdfdf;
+}
