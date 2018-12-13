@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Core.Entities\API.Core.Entities.csproj" />
+    <ProjectReference Include="..\API.Core.Infrastructure\API.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\API.Core.Logging\API.Core.Logging.csproj" />
+    <ProjectReference Include="..\API.Microservice.Authentication.Models\API.Microservice.Authentication.Models.csproj" />
+    <ProjectReference Include="..\API.Microservice.Authentication.Repositories\API.Microservice.Authentication.Repositories.csproj" />
+    <ProjectReference Include="..\API.Microservice.Authentication.Repository.Interfaces\API.Microservice.Authentication.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,445 @@
+2018-10-18 23:16:25,179  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-10-18 23:16:25,179  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-10-18 23:16:25,296  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 128.4503ms 200 
+ 2018-10-18 23:16:25,749  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 565.4121ms 404 
+ 2018-10-18 23:18:34,952  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-10-18 23:18:34,952  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-10-18 23:18:35,023  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 76.9609ms 200 
+ 2018-10-18 23:18:35,298  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 353.6789ms 404 
+ 2018-11-28 22:49:50,421  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-11-28 22:49:50,421  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-11-28 22:49:50,568  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 154.1561ms 200 
+ 2018-11-28 22:49:51,447  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 942.9675ms 404 
+ 2018-11-28 22:54:47,256  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-11-28 22:54:47,565  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 316.8189ms 404 
+ 2018-11-28 22:57:00,777  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-11-28 22:57:00,776  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-11-28 22:57:00,902  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 144.1418ms 200 
+ 2018-11-28 22:57:01,377  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 580.6011ms 404 
+ 2018-11-28 23:00:37,233  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-11-28 23:00:37,363  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Failed to validate the token.
+ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '11/28/2018 15:59:48', Current time: '11/28/2018 16:00:37'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2018-11-28 23:00:37,371  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: TestKey was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '11/28/2018 15:59:48', Current time: '11/28/2018 16:00:37'.
+ 2018-11-28 23:00:37,427  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image)
+ 2018-11-28 23:00:37,448  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization failed.
+ 2018-11-28 23:00:37,451  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+ 2018-11-28 23:00:37,456  INFO Microsoft.AspNetCore.Mvc.ChallengeResult.? [?] - MESSAGE: Executing ChallengeResult with authentication schemes ().
+ 2018-11-28 23:00:37,463  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image) in 32.1773ms
+ 2018-11-28 23:00:37,477  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 243.4405ms 500 
+ 2018-11-28 23:01:51,109  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-11-28 23:01:51,109  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-11-28 23:01:51,240  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 145.3262ms 200 
+ 2018-11-28 23:01:52,088  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 960.7343ms 404 
+ 2018-11-28 23:02:12,282  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-11-28 23:02:12,342  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:02:12,389  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image)
+ 2018-11-28 23:02:12,404  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-11-28 23:02:12,447  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image) with arguments (1) - Validation state: Valid
+ 2018-11-28 23:02:13,093  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 642.1984ms.
+ 2018-11-28 23:02:13,107  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'API.Microservice.Image.Models.ImageModel'.
+ 2018-11-28 23:02:13,131  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image) in 735.9072ms
+ 2018-11-28 23:02:13,136  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 854.5257ms 200 application/json; charset=utf-8
+ 2018-11-28 23:05:18,136  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-11-28 23:05:18,136  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-11-28 23:05:18,278  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 201.9736ms 200 
+ 2018-11-28 23:05:18,782  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 717.4079ms 404 
+ 2018-11-28 23:05:33,481  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-11-28 23:05:33,531  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:05:33,593  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 111.234ms 500 
+ 2018-11-28 23:06:30,852  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByProduct/1  0
+ 2018-11-28 23:06:30,855  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:06:30,858  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5.0398ms 404 
+ 2018-11-28 23:06:46,932  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByProduct/1  0
+ 2018-11-28 23:06:46,935  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:06:46,940  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5.416ms 404 
+ 2018-11-28 23:06:55,524  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByProduct/1  0
+ 2018-11-28 23:06:55,527  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:06:55,537  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 55.1577ms 404 
+ 2018-11-28 23:12:29,307  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByProduct/1  0
+ 2018-11-28 23:12:29,310  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:12:29,312  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5.3883ms 404 
+ 2018-11-28 23:12:31,249  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByProduct/1  0
+ 2018-11-28 23:12:31,253  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:12:31,261  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 13.5361ms 404 
+ 2018-11-28 23:12:48,480  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-11-28 23:12:48,483  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:12:48,495  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 15.1003ms 500 
+ 2018-11-28 23:12:53,538  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByProduct/1  0
+ 2018-11-28 23:12:53,541  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:12:53,543  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 9.8344ms 404 
+ 2018-11-28 23:19:28,532  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-11-28 23:19:28,535  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:19:28,555  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 21.1662ms 500 
+ 2018-11-28 23:20:49,096  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-11-28 23:20:49,100  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-11-28 23:20:49,112  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 21.7224ms 500 
+ 2018-12-01 09:37:27,555  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 09:37:27,556  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 09:37:27,741  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 191.1214ms 200 
+ 2018-12-01 09:37:28,839  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1125.1623ms 404 
+ 2018-12-01 09:45:23,342  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 09:45:23,342  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 09:45:23,440  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 102.5336ms 200 
+ 2018-12-01 09:45:23,794  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 457.1413ms 404 
+ 2018-12-01 09:46:41,233  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 09:46:41,233  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 09:46:41,516  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 263.9657ms 200 
+ 2018-12-01 09:46:42,680  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1302.6741ms 404 
+ 2018-12-01 09:56:49,185  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 09:56:49,185  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 09:56:49,281  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 105.5177ms 200 
+ 2018-12-01 09:56:49,688  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 477.7452ms 404 
+ 2018-12-01 10:04:07,350  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:04:07,350  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:04:07,595  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 254.5535ms 200 
+ 2018-12-01 10:04:08,051  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 708.145ms 404 
+ 2018-12-01 10:09:05,371  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:09:05,371  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:09:05,455  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 92.4257ms 200 
+ 2018-12-01 10:09:05,758  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 393.9095ms 404 
+ 2018-12-01 10:14:21,297  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:14:21,297  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:14:21,456  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 147.3861ms 200 
+ 2018-12-01 10:14:22,242  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 897.9654ms 404 
+ 2018-12-01 10:17:25,477  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:17:25,477  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:17:25,591  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 120.5004ms 200 
+ 2018-12-01 10:17:25,992  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 528.2201ms 404 
+ 2018-12-01 10:19:40,259  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:19:40,259  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:19:40,389  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 143.9404ms 200 
+ 2018-12-01 10:19:40,720  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 475.3396ms 404 
+ 2018-12-01 10:22:46,530  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:22:46,530  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:22:46,675  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 156.8714ms 200 
+ 2018-12-01 10:22:47,035  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 520.2764ms 404 
+ 2018-12-01 10:31:18,273  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:31:18,273  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:31:18,338  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 71.3654ms 200 
+ 2018-12-01 10:31:18,611  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 346.0303ms 404 
+ 2018-12-01 10:51:44,298  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 10:51:44,298  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 10:51:44,399  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 100.1757ms 200 
+ 2018-12-01 10:51:44,747  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 444.9461ms 404 
+ 2018-12-01 11:38:22,144  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 11:38:22,144  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 11:38:22,209  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 79.1266ms 200 
+ 2018-12-01 11:38:22,510  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 378.9109ms 404 
+ 2018-12-01 11:40:23,588  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 11:40:23,588  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 11:40:23,731  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 150.0869ms 200 
+ 2018-12-01 11:40:24,013  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 427.0934ms 404 
+ 2018-12-01 11:55:28,580  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 11:55:28,580  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 11:55:28,674  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 105.9197ms 200 
+ 2018-12-01 11:55:29,005  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 423.9967ms 404 
+ 2018-12-01 11:58:05,324  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 11:58:05,324  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 11:58:05,436  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 132.5247ms 200 
+ 2018-12-01 11:58:05,815  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 506.2ms 404 
+ 2018-12-01 11:58:52,748  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 11:58:52,748  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 11:58:52,857  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 122.0503ms 200 
+ 2018-12-01 11:58:53,261  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 476.1277ms 404 
+ 2018-12-01 13:32:43,145  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 13:32:43,145  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 13:32:43,216  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 76.4242ms 200 
+ 2018-12-01 13:32:43,538  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 392.6794ms 404 
+ 2018-12-01 13:48:50,875  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 13:48:50,875  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 13:48:50,952  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 88.5616ms 200 
+ 2018-12-01 13:48:51,288  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 430.2235ms 404 
+ 2018-12-01 23:49:56,752  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 23:49:56,752  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 23:49:56,815  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 69.4659ms 200 
+ 2018-12-01 23:49:57,418  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 627.8062ms 404 
+ 2018-12-01 23:50:43,624  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 23:50:43,624  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 23:50:43,736  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 137.2987ms 200 
+ 2018-12-01 23:50:44,352  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 635.8784ms 404 
+ 2018-12-01 23:53:42,983  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-01 23:53:42,983  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-01 23:53:43,280  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 290.23ms 200 
+ 2018-12-01 23:53:44,078  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 994.1366ms 404 
+ 2018-12-02 22:19:57,937  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-02 22:19:57,937  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-02 22:19:58,036  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 132.9611ms 200 
+ 2018-12-02 22:19:58,669  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 774.6639ms 404 
+ 2018-12-03 23:01:53,656  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-03 23:01:53,656  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-03 23:01:54,005  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 307.2165ms 200 
+ 2018-12-03 23:01:55,579  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1734.0519ms 404 
+ 2018-12-03 23:32:02,293  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-03 23:32:02,293  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-03 23:32:02,391  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 109.6842ms 200 
+ 2018-12-03 23:32:02,863  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 578.6557ms 404 
+ 2018-12-03 23:32:29,513  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-03 23:32:29,513  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-03 23:32:29,672  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 156.1009ms 200 
+ 2018-12-03 23:33:50,735  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 81237.9813ms 404 
+ 2018-12-04 21:55:24,471  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 21:55:24,727  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 263.4651ms 404 
+ 2018-12-04 21:56:42,513  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 21:56:42,513  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 21:56:42,628  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 126.8577ms 200 
+ 2018-12-04 21:56:43,192  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 678.6381ms 404 
+ 2018-12-04 21:58:33,939  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 21:58:33,939  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 21:58:34,190  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 307.7506ms 200 
+ 2018-12-04 21:58:35,112  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1219.4187ms 404 
+ 2018-12-04 22:08:18,306  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 22:08:18,306  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 22:08:18,412  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 117.9476ms 200 
+ 2018-12-04 22:08:18,780  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 491.8259ms 404 
+ 2018-12-04 22:10:59,898  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 22:10:59,898  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 22:11:00,134  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 272.6025ms 200 
+ 2018-12-04 22:11:01,265  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1393.617ms 404 
+ 2018-12-04 22:20:21,369  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 22:20:21,369  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 22:20:21,438  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 74.2878ms 200 
+ 2018-12-04 22:20:21,795  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 431.6253ms 404 
+ 2018-12-04 22:25:19,888  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 22:25:19,888  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 22:25:20,037  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 189.6544ms 200 
+ 2018-12-04 22:25:25,131  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5252.8052ms 404 
+ 2018-12-04 22:26:50,325  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByProduct/1  0
+ 2018-12-04 22:26:50,418  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:26:50,423  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 98.4926ms 404 
+ 2018-12-04 22:27:03,017  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:27:03,021  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:27:03,146  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 127.7656ms 500 
+ 2018-12-04 22:27:55,293  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:27:55,296  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:27:55,327  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 35.8492ms 500 
+ 2018-12-04 22:28:39,192  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:28:39,194  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:28:39,229  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 37.0259ms 500 
+ 2018-12-04 22:28:42,813  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:28:42,816  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:28:42,845  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 32.4302ms 500 
+ 2018-12-04 22:29:02,203  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:29:02,205  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:29:02,237  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 33.8387ms 500 
+ 2018-12-04 22:56:32,824  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 22:56:32,824  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 22:56:32,924  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 100.409ms 200 
+ 2018-12-04 22:56:33,204  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 389.339ms 404 
+ 2018-12-04 22:59:02,296  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image  0
+ 2018-12-04 22:59:02,393  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:59:02,397  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 101.4515ms 404 
+ 2018-12-04 22:59:33,706  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:59:33,709  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:59:33,712  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 6.4349ms 404 
+ 2018-12-04 22:59:39,196  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:59:39,198  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:59:39,203  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 4.8079ms 404 
+ 2018-12-04 22:59:39,725  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:59:39,727  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:59:39,730  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5.0978ms 404 
+ 2018-12-04 22:59:40,011  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 22:59:40,013  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 22:59:40,016  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5.3158ms 404 
+ 2018-12-04 23:01:01,114  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image  
+ 2018-12-04 23:01:01,131  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 20.8958ms 404 
+ 2018-12-04 23:02:28,852  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 23:02:28,852  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 23:02:29,064  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 188.1137ms 200 
+ 2018-12-04 23:02:29,550  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 670.5135ms 404 
+ 2018-12-04 23:02:56,144  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image  0
+ 2018-12-04 23:02:56,226  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:02:56,261  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image)
+ 2018-12-04 23:02:56,276  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:02:56,304  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image) - Validation state: Valid
+ 2018-12-04 23:03:01,740  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5430.2733ms.
+ 2018-12-04 23:03:01,752  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:03:01,776  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image) in 5510.4492ms
+ 2018-12-04 23:03:01,784  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5638.844ms 200 application/json; charset=utf-8
+ 2018-12-04 23:03:08,537  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/1  0
+ 2018-12-04 23:03:08,541  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:03:08,559  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image)
+ 2018-12-04 23:03:08,562  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:03:08,591  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image) with arguments (1) - Validation state: Valid
+ 2018-12-04 23:03:10,883  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2289.5263ms.
+ 2018-12-04 23:03:10,886  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'API.Microservice.Image.Models.ImageModel'.
+ 2018-12-04 23:03:10,888  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.Get (API.Microservice.Image) in 2326.7074ms
+ 2018-12-04 23:03:10,890  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 2353.6399ms 200 application/json; charset=utf-8
+ 2018-12-04 23:03:24,199  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/1  0
+ 2018-12-04 23:03:24,221  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:03:24,238  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 25.364ms 404 
+ 2018-12-04 23:03:49,193  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/1  0
+ 2018-12-04 23:03:49,196  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:03:49,198  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 4.8418ms 404 
+ 2018-12-04 23:04:26,484  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/1  0
+ 2018-12-04 23:04:26,486  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:04:26,490  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 5.2274ms 404 
+ 2018-12-04 23:05:04,483  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/1  
+ 2018-12-04 23:05:04,486  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 2.2752ms 404 
+ 2018-12-04 23:05:44,412  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product  
+ 2018-12-04 23:05:44,422  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:05:44,425  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization failed.
+ 2018-12-04 23:05:44,428  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+ 2018-12-04 23:05:44,435  INFO Microsoft.AspNetCore.Mvc.ChallengeResult.? [?] - MESSAGE: Executing ChallengeResult with authentication schemes ().
+ 2018-12-04 23:05:44,440  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 16.5875ms
+ 2018-12-04 23:05:44,629  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 216.2167ms 500 
+ 2018-12-04 23:05:59,344  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product  0
+ 2018-12-04 23:05:59,347  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:05:59,350  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:05:59,352  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:05:59,364  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (GetByCategory, 0) - Validation state: Invalid
+ 2018-12-04 23:08:59,358  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-04 23:08:59,358  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-04 23:08:59,528  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 154.5047ms 200 
+ 2018-12-04 23:09:00,520  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1129.3694ms 404 
+ 2018-12-04 23:09:01,795  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product  0
+ 2018-12-04 23:09:01,892  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:09:01,955  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:09:01,975  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:09:02,049  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product) - Validation state: Valid
+ 2018-12-04 23:09:10,608  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8554.6246ms.
+ 2018-12-04 23:09:10,621  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:09:10,643  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 8684.3066ms
+ 2018-12-04 23:09:10,647  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 8852.4586ms 200 application/json; charset=utf-8
+ 2018-12-04 23:09:22,113  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/1  0
+ 2018-12-04 23:09:22,115  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:09:22,119  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:09:22,122  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:09:22,126  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 1) - Validation state: Valid
+ 2018-12-04 23:09:24,936  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2807.1949ms.
+ 2018-12-04 23:09:24,938  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:09:24,940  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 2818.83ms
+ 2018-12-04 23:09:24,943  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 2830.3017ms 200 application/json; charset=utf-8
+ 2018-12-04 23:10:07,877  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/1  0
+ 2018-12-04 23:10:07,880  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:10:07,883  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:10:07,886  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:10:07,899  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 1) - Validation state: Valid
+ 2018-12-04 23:10:14,556  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6654.5618ms.
+ 2018-12-04 23:10:14,558  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:10:14,561  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 6675.0618ms
+ 2018-12-04 23:10:14,563  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 6686.3958ms 200 application/json; charset=utf-8
+ 2018-12-04 23:13:58,754  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/1  0
+ 2018-12-04 23:13:58,757  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:13:58,761  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:13:58,765  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:13:58,776  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 1) - Validation state: Valid
+ 2018-12-04 23:14:05,072  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6293.4274ms.
+ 2018-12-04 23:14:05,075  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:14:05,082  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 6314.3511ms
+ 2018-12-04 23:14:05,086  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 6331.1072ms 200 application/json; charset=utf-8
+ 2018-12-04 23:14:37,393  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/2  0
+ 2018-12-04 23:14:37,402  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:14:37,405  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:14:37,408  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:14:37,418  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 2) - Validation state: Valid
+ 2018-12-04 23:14:37,422  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2753ms.
+ 2018-12-04 23:14:37,425  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:14:37,428  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 19.768ms
+ 2018-12-04 23:14:37,431  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 37.1518ms 200 application/json; charset=utf-8
+ 2018-12-04 23:14:54,002  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/3  0
+ 2018-12-04 23:14:54,012  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:14:54,014  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:14:54,017  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:14:54,027  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 3) - Validation state: Valid
+ 2018-12-04 23:14:54,030  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4609ms.
+ 2018-12-04 23:14:54,032  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:14:54,036  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 18.2947ms
+ 2018-12-04 23:14:54,039  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 36.3612ms 200 application/json; charset=utf-8
+ 2018-12-04 23:15:05,223  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/2  0
+ 2018-12-04 23:15:05,231  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:15:05,235  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:15:05,238  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:15:05,242  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 2) - Validation state: Valid
+ 2018-12-04 23:15:05,246  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3087ms.
+ 2018-12-04 23:15:05,248  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:15:05,251  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 12.6653ms
+ 2018-12-04 23:15:05,255  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 31.4967ms 200 application/json; charset=utf-8
+ 2018-12-04 23:15:30,111  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/2  0
+ 2018-12-04 23:15:30,117  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:15:30,121  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:15:30,126  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:15:30,142  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 2) - Validation state: Valid
+ 2018-12-04 23:15:30,147  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1216ms.
+ 2018-12-04 23:15:30,151  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:15:30,155  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 30.0193ms
+ 2018-12-04 23:15:30,161  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 48.3881ms 200 application/json; charset=utf-8
+ 2018-12-04 23:15:36,738  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/3  0
+ 2018-12-04 23:15:36,741  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:15:36,745  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:15:36,749  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:15:36,753  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 3) - Validation state: Valid
+ 2018-12-04 23:15:36,756  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.5267ms.
+ 2018-12-04 23:15:36,758  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:15:36,763  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 13.8126ms
+ 2018-12-04 23:15:36,766  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 27.4182ms 200 application/json; charset=utf-8
+ 2018-12-04 23:16:17,945  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/product/3  0
+ 2018-12-04 23:16:17,950  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:16:17,955  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:16:17,959  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:16:17,969  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (product, 3) - Validation state: Valid
+ 2018-12-04 23:16:17,974  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1926ms.
+ 2018-12-04 23:16:17,980  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:16:17,983  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 24.6901ms
+ 2018-12-04 23:16:17,985  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 40.8762ms 200 application/json; charset=utf-8
+ 2018-12-04 23:22:22,935  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/user/1  0
+ 2018-12-04 23:22:22,937  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:22:22,939  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:22:22,947  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:22:22,955  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (user, 1) - Validation state: Valid
+ 2018-12-04 23:22:22,983  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25.6056ms.
+ 2018-12-04 23:22:22,985  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:22:22,987  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 45.8306ms
+ 2018-12-04 23:22:22,989  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 54.4987ms 200 application/json; charset=utf-8
+ 2018-12-04 23:22:30,317  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/user/1  0
+ 2018-12-04 23:22:30,319  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:22:30,321  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:22:30,324  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:22:30,327  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (user, 1) - Validation state: Valid
+ 2018-12-04 23:22:30,330  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1175ms.
+ 2018-12-04 23:22:30,332  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:22:30,335  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 11.3842ms
+ 2018-12-04 23:22:30,337  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 19.403ms 200 application/json; charset=utf-8
+ 2018-12-04 23:22:52,873  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/user/1  0
+ 2018-12-04 23:22:52,877  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:22:52,880  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:22:52,882  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:22:52,892  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (user, 1) - Validation state: Valid
+ 2018-12-04 23:22:52,900  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1376ms.
+ 2018-12-04 23:22:52,903  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:22:52,911  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 23.7437ms
+ 2018-12-04 23:22:52,913  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 41.5871ms 200 application/json; charset=utf-8
+ 2018-12-04 23:22:56,228  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/image/GetByCategory/user/1  0
+ 2018-12-04 23:22:56,233  INFO Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.? [?] - MESSAGE: Successfully validated the token.
+ 2018-12-04 23:22:56,237  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetByCategory", controller = "Image"}. Executing action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image)
+ 2018-12-04 23:22:56,240  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization was successful.
+ 2018-12-04 23:22:56,246  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) with arguments (user, 1) - Validation state: Valid
+ 2018-12-04 23:22:56,250  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1401ms.
+ 2018-12-04 23:22:56,252  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[API.Microservice.Image.Models.ImageModel, API.Microservice.Image.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2018-12-04 23:22:56,255  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.ImageMicroservice.Controllers.ImageController.GetByCategory (API.Microservice.Image) in 15.4067ms
+ 2018-12-04 23:22:56,258  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 30.7904ms 200 application/json; charset=utf-8
+ 2018-12-05 23:48:14,458  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-05 23:48:14,458  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-05 23:48:14,670  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 306.6423ms 200 
+ 2018-12-05 23:48:16,397  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1922.7558ms 404 
+ 2018-12-06 00:31:26,892  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-06 00:31:26,892  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-06 00:31:26,969  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 84.7108ms 200 
+ 2018-12-06 00:31:27,238  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 357.9703ms 404 
+ 2018-12-07 22:44:24,644  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-07 22:44:24,644  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-07 22:44:24,700  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 61.9067ms 200 
+ 2018-12-07 22:44:24,886  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 249.8789ms 404 
+ 2018-12-07 23:45:09,683  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-07 23:45:09,683  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-07 23:45:09,812  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 149.7794ms 200 
+ 2018-12-07 23:45:10,299  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 627.5572ms 404 
+ 2018-12-08 21:28:15,237  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 DEBUG http://localhost:2004/  0
+ 2018-12-08 21:28:15,237  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:2004/api/values  
+ 2018-12-08 21:28:15,346  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 122.9087ms 200 
+ 2018-12-08 21:28:16,137  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 857.2949ms 404 
+ 

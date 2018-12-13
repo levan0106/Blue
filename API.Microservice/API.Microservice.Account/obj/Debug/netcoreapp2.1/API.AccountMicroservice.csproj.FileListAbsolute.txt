@@ -1,0 +1,17 @@
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\bin\Debug\netcoreapp2.1\API.AccountMicroservice.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\bin\Debug\netcoreapp2.1\API.AccountMicroservice.runtimeconfig.json
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\bin\Debug\netcoreapp2.1\API.AccountMicroservice.runtimeconfig.dev.json
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\bin\Debug\netcoreapp2.1\API.AccountMicroservice.dll
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.RazorAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.RazorAssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\bin\Debug\netcoreapp2.1\API.AccountMicroservice.pdb
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.dll
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.pdb
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\bin\Debug\netcoreapp2.1\API.Core.Startup.dll
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\bin\Debug\netcoreapp2.1\API.Core.Startup.pdb
+C:\Users\levan\code\blue\API.Microservice\API.AccountMicroservice\obj\Debug\netcoreapp2.1\API.AccountMicroservice.csproj.CopyComplete

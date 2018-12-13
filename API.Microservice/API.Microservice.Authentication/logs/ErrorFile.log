@@ -1,0 +1,1069 @@
+2018-10-21 14:56:51,063 ERROR Microsoft.AspNetCore.Mvc.Internal.ActionSelector.? [?] - MESSAGE: Request matched multiple actions resulting in ambiguity. Matching actions: API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+ 2018-10-21 14:56:51,153 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5AOA3KFG", Request id "0HLHN5AOA3KFG:00000002": An unhandled exception was thrown by the application.
+ Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 14:57:41,920 ERROR Microsoft.AspNetCore.Mvc.Internal.ActionSelector.? [?] - MESSAGE: Request matched multiple actions resulting in ambiguity. Matching actions: API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+ 2018-10-21 14:57:41,925 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5AOA3KFG", Request id "0HLHN5AOA3KFG:00000003": An unhandled exception was thrown by the application.
+ Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 14:58:48,701 ERROR Microsoft.AspNetCore.Mvc.Internal.ActionSelector.? [?] - MESSAGE: Request matched multiple actions resulting in ambiguity. Matching actions: API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+ 2018-10-21 14:58:48,706 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5AOA3KFI", Request id "0HLHN5AOA3KFI:00000001": An unhandled exception was thrown by the application.
+ Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 14:58:52,215 ERROR Microsoft.AspNetCore.Mvc.Internal.ActionSelector.? [?] - MESSAGE: Request matched multiple actions resulting in ambiguity. Matching actions: API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+ 2018-10-21 14:58:52,219 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5AOA3KFI", Request id "0HLHN5AOA3KFI:00000002": An unhandled exception was thrown by the application.
+ Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+API.Microservice.Authentication.Controllers.AuthenticationController.Get (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 15:00:30,188 ERROR Microsoft.AspNetCore.Mvc.Internal.ActionSelector.? [?] - MESSAGE: Request matched multiple actions resulting in ambiguity. Matching actions: API.Microservice.Authentication.Controllers.AuthenticationController.GetToken (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+ 2018-10-21 15:00:30,243 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5CORCI44", Request id "0HLHN5CORCI44:00000002": An unhandled exception was thrown by the application.
+ Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+API.Microservice.Authentication.Controllers.AuthenticationController.GetToken (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 15:01:35,822 ERROR Microsoft.AspNetCore.Mvc.Internal.ActionSelector.? [?] - MESSAGE: Request matched multiple actions resulting in ambiguity. Matching actions: API.Microservice.Authentication.Controllers.AuthenticationController.GetToken (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+ 2018-10-21 15:01:35,829 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5CORCI43", Request id "0HLHN5CORCI43:00000004": An unhandled exception was thrown by the application.
+ Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+API.Microservice.Authentication.Controllers.AuthenticationController.GetToken (API.Microservice.Authentication)
+API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken (API.Microservice.Authentication)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 15:04:18,059 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5EMRKL6C", Request id "0HLHN5EMRKL6C:00000002": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object.
+Parameter name: token
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at API.Microservice.Authentication.TokenManager.GetPrincipalFromExpiredToken(String token) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\TokenManager.cs:line 75
+   at API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken(String token, String refreshToken) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 93
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 15:44:53,906 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5EMRKL6F", Request id "0HLHN5EMRKL6F:00000001": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object.
+Parameter name: token
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at API.Microservice.Authentication.TokenManager.GetPrincipalFromExpiredToken(String token) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\TokenManager.cs:line 75
+   at API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken(String token, String refreshToken) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 93
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 15:45:31,122 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5EMRKL6F", Request id "0HLHN5EMRKL6F:00000002": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object.
+Parameter name: token
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at API.Microservice.Authentication.TokenManager.GetPrincipalFromExpiredToken(String token) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\TokenManager.cs:line 75
+   at API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken(String token, String refreshToken) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 93
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 15:48:19,064 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5EMRKL6G", Request id "0HLHN5EMRKL6G:00000001": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object.
+Parameter name: token
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at API.Microservice.Authentication.TokenManager.GetPrincipalFromExpiredToken(String token) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\TokenManager.cs:line 75
+   at API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken(String token, String refreshToken) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 93
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 15:48:38,632 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHN5EMRKL6G", Request id "0HLHN5EMRKL6G:00000002": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null' or an empty object.
+Parameter name: token
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at API.Microservice.Authentication.TokenManager.GetPrincipalFromExpiredToken(String token) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\TokenManager.cs:line 75
+   at API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken(String token, String refreshToken) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 93
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 21:15:31,236 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHNBU1D7UJV", Request id "0HLHNBU1D7UJV:00000002": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at API.Microservice.Authentication.TokenManager.GenerateToken(IOptions`1 settings, String userName) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\TokenManager.cs:line 21
+   at API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken(String token, String refreshToken) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 65
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-10-21 21:23:11,386 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLHNBU1D7UJV", Request id "0HLHNBU1D7UJV:00000003": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at API.Microservice.Authentication.TokenManager.GenerateToken(IOptions`1 settings, String userName)
+   at API.Microservice.Authentication.Controllers.AuthenticationController.RefreshToken(String token, String refreshToken)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-25 22:57:29,025 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'levan-pc' is not allowed to connect to this MySQL server
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-11-25 22:59:20,314 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'levan-pc' is not allowed to connect to this MySQL server
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-11-25 23:05:04,801 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Host 'levan-pc' is not allowed to connect to this MySQL server
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-11-25 23:05:41,353 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function '`account`' cannot be found in database '`blue`'.
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-11-25 23:07:20,004 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Procedure or function '`account`' cannot be found in database '`blue`'.
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-11-25 23:15:05,236 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.ArgumentException: Parameter 'i_UserName' not found in the collection.
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-01 09:38:49,945 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:39:30,277 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:40:08,880 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:43:25,265 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1c47f261-2507-4398-9580-30e85d0334d5(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:45:54,801 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize4204e9c1-7663-43ec-b2eb-0f9766f812a7(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize4204e9c1-7663-43ec-b2eb-0f9766f812a7(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:46:50,007 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:47:30,218 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:49:33,573 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:49:52,085 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect number of arguments for PROCEDURE blue_account.Validate_UserInfo; expected 2, got 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-01 09:50:15,984 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect number of arguments for PROCEDURE blue_account.Validate_UserInfo; expected 2, got 3
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-01 09:53:20,189 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize1ace5745-f8af-4c2d-a187-40526bec4169(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 09:57:03,960 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserializef1268c9a-5e3d-4603-8ac1-52d20c2d153b(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserializef1268c9a-5e3d-4603-8ac1-52d20c2d153b(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 10:04:34,798 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-01 10:04:56,014 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-01 10:05:26,880 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize4e9c63ee-78a9-4c88-9fd4-3d017d657954(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize4e9c63ee-78a9-4c88-9fd4-3d017d657954(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 10:09:50,577 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserializee03b9500-2fa4-4c29-b0ed-3ff84bda087f(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserializee03b9500-2fa4-4c29-b0ed-3ff84bda087f(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 10:14:33,188 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize0fbebbae-0540-414a-83e2-3874f7eaa529(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize0fbebbae-0540-414a-83e2-3874f7eaa529(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 10:17:40,196 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'i_ClientId' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-01 10:18:19,199 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=tungle - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize7920eeba-07e1-49f1-8e56-9fe6c4552a24(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize7920eeba-07e1-49f1-8e56-9fe6c4552a24(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 10:19:57,913 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.Data.DataException: Error parsing column 2 (UserId=admin - String) ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize3212ea78-2d9e-4290-ada8-6d404e79b415(IDataReader )
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in C:\projects\dapper\Dapper\SqlMapper.cs:line 3609
+   at Deserialize3212ea78-2d9e-4290-ada8-6d404e79b415(IDataReader )
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters)
+2018-12-01 10:22:59,203 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ System.ArgumentException: Parameter 'i_Token' not found in the collection.
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-01 10:25:52,833 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ System.ArgumentException: Parameter 'i_Token' not found in the collection.
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-01 10:31:26,036 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserId' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-01 10:37:04,867 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'p_UserRecId' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-01 10:42:30,340 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'p_UserRecId' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-01 10:43:11,021 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Column 'UserRecId' cannot be null
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-01 10:52:56,892 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserId' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-01 11:00:08,760 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserId' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-01 11:00:26,560 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'UserId' in 'where clause'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-02 22:25:24,378 ERROR Microsoft.AspNetCore.Server.Kestrel.? [?] - MESSAGE: Connection id "0HLIOD6F5LVC6", Request id "0HLIOD6F5LVC6:00000001": An unhandled exception was thrown by the application.
+ System.ArgumentNullException: Value cannot be null.
+Parameter name: value
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at API.Microservice.Authentication.TokenManager.GenerateToken(IOptions`1 settings, String userName, String client) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\TokenManager.cs:line 21
+   at API.Microservice.Authentication.Controllers.AuthenticationController.DoGenerateToken(String userName, String clientId) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 114
+   at API.Microservice.Authentication.Controllers.AuthenticationController.GetToken(String name, String pwd, String client) in C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication\Controllers\AuthenticationController.cs:line 45
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-02 22:25:41,189 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'i_Token' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-02 22:30:19,828 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'i_Token' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-02 22:33:56,111 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'i_Token' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-02 22:37:17,447 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'i_Token' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-02 22:40:06,909 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'i_Token' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-02 22:44:20,022 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'i_Token' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-04 21:58:37,206 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ System.ArgumentException: Parameter 'i_ClientId' not found in the collection.
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1053
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 59
+2018-12-04 22:08:37,087 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect integer value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidHVuZ2x' for column 'i_ClientId' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-04 22:11:07,306 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect integer value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidHVuZ2x' for column 'i_ClientId' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-04 22:20:32,562 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect integer value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidHVuZ2x' for column 'i_ClientId' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-04 22:21:15,807 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect integer value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidHVuZ2x' for column 'i_ClientId' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-04 22:22:01,620 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute None Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Incorrect integer value: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidHVuZ2x' for column 'i_ClientId' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in C:\projects\dapper\Dapper\SqlMapper.cs:line 2827
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in C:\projects\dapper\Dapper\SqlMapper.cs:line 570
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 443
+   at API.Core.Repositories.BaseRepository.ExecuteNoneQuery(String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 43
+2018-12-07 22:53:39,316 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 22:57:25,630 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 22:58:23,311 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 23:02:58,230 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 23:03:29,510 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 23:04:45,651 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 23:04:53,798 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 23:06:18,241 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 23:06:56,413 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57
+2018-12-07 23:07:01,464 ERROR API.Core.Logging.LogManager.? [?] - MESSAGE: Execute Query
+ MySql.Data.MySqlClient.MySqlException (0x80004005): Retrieval of the RSA public key is not enabled for insecure connections.
+   at MySql.Data.MySqlClient.Authentication.CachingSha2AuthenticationPlugin.GeneratePassword()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthentication(Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at API.Core.Infrastructure.DatabaseConnectionFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\DatabaseConnectionFactory.cs:line 21
+   at API.Core.Infrastructure.BaseFactory.GetConnection() in C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\BaseFactory.cs:line 27
+   at API.Core.Repositories.BaseRepository.ExecuteQuery[T](String storeName, BaseDynamicParameters parameters) in C:\Users\levan\code\blue\API.Microservice\API.Core.Repositories\BaseRepository.cs:line 57

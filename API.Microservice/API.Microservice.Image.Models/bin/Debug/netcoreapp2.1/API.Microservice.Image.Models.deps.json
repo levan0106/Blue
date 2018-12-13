@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "API.Microservice.Image.Models/1.0.0": {
+        "dependencies": {
+          "API.Core.Entities": "1.0.0"
+        },
+        "runtime": {
+          "API.Microservice.Image.Models.dll": {}
+        }
+      },
+      "API.Core.Entities/1.0.0": {
+        "runtime": {
+          "API.Core.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "API.Microservice.Image.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Core.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

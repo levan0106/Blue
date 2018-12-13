@@ -1,0 +1,17 @@
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\bin\Debug\netcoreapp2.1\API.ImageMicroservice.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\bin\Debug\netcoreapp2.1\API.ImageMicroservice.runtimeconfig.json
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\bin\Debug\netcoreapp2.1\API.ImageMicroservice.runtimeconfig.dev.json
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\bin\Debug\netcoreapp2.1\API.ImageMicroservice.dll
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\bin\Debug\netcoreapp2.1\API.ImageMicroservice.pdb
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.RazorAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.RazorAssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.RazorTargetAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.dll
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.pdb
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\bin\Debug\netcoreapp2.1\API.Core.Startup.dll
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\bin\Debug\netcoreapp2.1\API.Core.Startup.pdb
+C:\Users\levan\code\blue\API.Microservice\API.ImageMicroservice\obj\Debug\netcoreapp2.1\API.ImageMicroservice.csproj.CopyComplete

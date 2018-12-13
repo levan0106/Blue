@@ -1,0 +1,17 @@
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\bin\Debug\netcoreapp2.1\API.AuthService.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\bin\Debug\netcoreapp2.1\API.AuthService.runtimeconfig.json
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\bin\Debug\netcoreapp2.1\API.AuthService.runtimeconfig.dev.json
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\bin\Debug\netcoreapp2.1\API.AuthService.dll
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.RazorAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.RazorAssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.RazorTargetAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\bin\Debug\netcoreapp2.1\API.AuthService.pdb
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\bin\Debug\netcoreapp2.1\API.Core.Entity.dll
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\bin\Debug\netcoreapp2.1\API.Core.Entity.pdb
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.csproj.CopyComplete
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.dll
+C:\Users\levan\code\blue\API.Microservice\API.AuthService\obj\Debug\netcoreapp2.1\API.AuthService.pdb

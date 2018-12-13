@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "API.Microservice.Authentication.Repository.Interfaces/1.0.0": {
+        "dependencies": {
+          "API.Core.Repository.Interfaces": "1.0.0",
+          "API.Microservice.Authentication.Models": "1.0.0"
+        },
+        "runtime": {
+          "API.Microservice.Authentication.Repository.Interfaces.dll": {}
+        }
+      },
+      "API.Core.Entities/1.0.0": {
+        "runtime": {
+          "API.Core.Entities.dll": {}
+        }
+      },
+      "API.Core.Repository.Interfaces/1.0.0": {
+        "dependencies": {
+          "API.Core.Entities": "1.0.0"
+        },
+        "runtime": {
+          "API.Core.Repository.Interfaces.dll": {}
+        }
+      },
+      "API.Microservice.Authentication.Models/1.0.0": {
+        "dependencies": {
+          "API.Core.Entities": "1.0.0"
+        },
+        "runtime": {
+          "API.Microservice.Authentication.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "API.Microservice.Authentication.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Core.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Core.Repository.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Microservice.Authentication.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

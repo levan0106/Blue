@@ -1,0 +1,12 @@
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\bin\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\bin\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\bin\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\bin\Debug\netcoreapp2.1\API.Microservice.Notification.Models.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\bin\Debug\netcoreapp2.1\API.Microservice.Notification.Models.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\obj\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\obj\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\obj\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\obj\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\obj\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.csproj.CopyComplete
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\obj\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.SignalR\obj\Debug\netcoreapp2.1\API.Microservice.Notification.SignalR.pdb

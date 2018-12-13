@@ -1,0 +1,12 @@
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\bin\Debug\netcoreapp2.1\API.Microservice.Store.Entities.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\bin\Debug\netcoreapp2.1\API.Microservice.Store.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\bin\Debug\netcoreapp2.1\API.Microservice.Store.Entities.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Store.Entities.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Store.Entities.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Store.Entities.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Store.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Store.Entities.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\bin\Debug\netcoreapp2.1\API.Core.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\bin\Debug\netcoreapp2.1\API.Core.Entities.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Store.Entities.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Store.Entities.csproj.CopyComplete

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\API.EventBus\API.EventBus.Consumer\API.EventBus.Consumer.csproj" />
+    <ProjectReference Include="..\API.Microservice.Notification.Models\API.Microservice.Notification.Models.csproj" />
+    <ProjectReference Include="..\API.Microservice.Notification.SignalR\API.Microservice.Notification.SignalR.csproj" />
+  </ItemGroup>
+
+</Project>

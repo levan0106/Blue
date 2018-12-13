@@ -1,0 +1,16 @@
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Models.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Models.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.csproj.CopyComplete
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Repository.Interfaces.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Entities.pdb

@@ -1,0 +1,8 @@
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\bin\Debug\netcoreapp2.1\API.Microservice.Notification.Models.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\bin\Debug\netcoreapp2.1\API.Microservice.Notification.Models.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\bin\Debug\netcoreapp2.1\API.Microservice.Notification.Models.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\obj\Debug\netcoreapp2.1\API.Microservice.Notification.Models.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\obj\Debug\netcoreapp2.1\API.Microservice.Notification.Models.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\obj\Debug\netcoreapp2.1\API.Microservice.Notification.Models.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\obj\Debug\netcoreapp2.1\API.Microservice.Notification.Models.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Notification.Models\obj\Debug\netcoreapp2.1\API.Microservice.Notification.Models.pdb

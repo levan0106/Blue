@@ -1,0 +1,12 @@
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\bin\Debug\netcoreapp2.1\API.Core.Entities.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Core.Repository.Interfaces\obj\Debug\netcoreapp2.1\API.Core.Repository.Interfaces.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\bin\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Authentication.Entities\obj\Debug\netcoreapp2.1\API.Microservice.Authentication.Entities.csprojAssemblyReference.cache

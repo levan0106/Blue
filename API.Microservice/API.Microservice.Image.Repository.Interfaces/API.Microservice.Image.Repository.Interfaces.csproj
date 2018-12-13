@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Core.Repository.Interfaces\API.Core.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\API.Microservice.Image.Models\API.Microservice.Image.Models.csproj" />
+  </ItemGroup>
+
+</Project>

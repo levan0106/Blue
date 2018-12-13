@@ -1,0 +1,16 @@
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Core.Entities.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Core.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Microservice.Store.Models.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Core.Repository.Interfaces.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Microservice.Store.Models.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\bin\Release\netcoreapp2.1\API.Core.Entities.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\obj\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\obj\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\obj\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\obj\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\obj\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.csproj.CopyComplete
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\obj\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.dll
+C:\Users\levan\code\blue\API.Microservice\API.Microservice.Store.Repository.Interfaces\obj\Release\netcoreapp2.1\API.Microservice.Store.Repository.Interfaces.pdb

@@ -1,0 +1,42 @@
+2018-11-07 22:13:46,429  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://192.168.100.6/accountService/api/user/1  
+ 2018-11-07 22:13:46,610  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "User"}. Executing action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account)
+ 2018-11-07 22:13:46,636  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) with arguments (1) - Validation state: Valid
+ 2018-11-07 22:13:46,825  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 187.0751ms.
+ 2018-11-07 22:13:46,833  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'API.Microservice.Account.Entities.User'.
+ 2018-11-07 22:13:46,902  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) in 289.2078ms
+ 2018-11-07 22:13:46,907  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 481.9345ms 200 application/json; charset=utf-8
+ 2018-11-07 22:15:42,748  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://127.0.0.1:20284/ACCOUNTSERVICE/iisintegration  0
+ 2018-11-07 22:15:42,749  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1.3031ms 202 
+ 2018-11-07 22:21:03,088  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://192.168.100.6/accountService/api/user/1  
+ 2018-11-07 22:21:03,243  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "User"}. Executing action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account)
+ 2018-11-07 22:21:03,269  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) with arguments (1) - Validation state: Valid
+ 2018-11-07 22:21:03,393  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 122.1057ms.
+ 2018-11-07 22:21:03,399  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'API.Microservice.Account.Entities.User'.
+ 2018-11-07 22:21:03,443  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) in 198.5067ms
+ 2018-11-07 22:21:03,448  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 364.0903ms 200 application/json; charset=utf-8
+ 2018-11-07 22:22:02,673  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://192.168.100.6/accountService/api/user/1  0
+ 2018-11-07 22:22:02,674  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "User"}. Executing action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account)
+ 2018-11-07 22:22:02,675  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) with arguments (1) - Validation state: Valid
+ 2018-11-07 22:22:02,682  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.188ms.
+ 2018-11-07 22:22:02,683  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'API.Microservice.Account.Entities.User'.
+ 2018-11-07 22:22:02,683  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) in 9.8117ms
+ 2018-11-07 22:22:02,684  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 11.0789ms 200 application/json; charset=utf-8
+ 2018-11-07 22:39:21,261  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://192.168.100.6/accountService/api/user/1  0
+ 2018-11-07 22:39:21,262  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "User"}. Executing action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account)
+ 2018-11-07 22:39:21,264  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) with arguments (1) - Validation state: Valid
+ 2018-11-07 22:39:21,271  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.3263ms.
+ 2018-11-07 22:39:21,271  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'API.Microservice.Account.Entities.User'.
+ 2018-11-07 22:39:21,271  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) in 9.2422ms
+ 2018-11-07 22:39:21,271  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 10.424ms 200 application/json; charset=utf-8
+ 2018-11-07 23:02:45,677  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://127.0.0.1:21104/ACCOUNTSERVICE/iisintegration  0
+ 2018-11-07 23:02:45,678  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 1.466ms 202 
+ 2018-12-05 23:56:30,297  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://127.0.0.1/AccountService/api/user/1  
+ 2018-12-05 23:56:30,693  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Get", controller = "User"}. Executing action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account)
+ 2018-12-05 23:56:30,717  INFO Microsoft.AspNetCore.Authorization.DefaultAuthorizationService.? [?] - MESSAGE: Authorization failed.
+ 2018-12-05 23:56:30,718  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+ 2018-12-05 23:56:30,726  INFO Microsoft.AspNetCore.Mvc.ChallengeResult.? [?] - MESSAGE: Executing ChallengeResult with authentication schemes ().
+ 2018-12-05 23:56:30,735  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action API.AccountMicroservice.Controllers.UserController.Get (API.Microservice.Account) in 37.5991ms
+ 2018-12-05 23:56:30,841  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 556.1899ms 500 
+ 2018-12-06 00:06:30,414  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 POST http://127.0.0.1:47325/ACCOUNTSERVICE/iisintegration  0
+ 2018-12-06 00:06:30,415  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 0.4924ms 202 
+ 

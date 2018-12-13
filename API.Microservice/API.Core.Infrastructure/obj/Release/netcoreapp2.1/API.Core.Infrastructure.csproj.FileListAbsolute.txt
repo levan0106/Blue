@@ -1,0 +1,9 @@
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\bin\Release\netcoreapp2.1\API.Core.Infrastructure.deps.json
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\bin\Release\netcoreapp2.1\API.Core.Infrastructure.dll
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\bin\Release\netcoreapp2.1\API.Core.Infrastructure.pdb
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\obj\Release\netcoreapp2.1\API.Core.Infrastructure.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\obj\Release\netcoreapp2.1\API.Core.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\obj\Release\netcoreapp2.1\API.Core.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\obj\Release\netcoreapp2.1\API.Core.Infrastructure.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\obj\Release\netcoreapp2.1\API.Core.Infrastructure.dll
+C:\Users\levan\code\blue\API.Microservice\API.Core.Infrastructure\obj\Release\netcoreapp2.1\API.Core.Infrastructure.pdb
