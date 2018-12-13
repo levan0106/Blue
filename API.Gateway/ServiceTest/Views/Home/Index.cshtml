@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h2>Home Page</h2>
+Token:
+<span id="token"></span>
+<br />
+Refresh Token:
+<span id="refreshtoken"></span>
+<br /><br />
+<span>Url: </span>
+<input id="url" type="text" style="width: 300px;" value="http://localhost:3000/api/user/1" />
+<select id="method">
+    <option value="Get">Get</option>
+    <option value="Post">Post</option>
+    <option value="Put">Put</option>
+    <option value="Delete">Delete</option>
+</select>
+<input type="button" value="Test Service" onclick="doTestService()" />
+<input type="button" value="Refresh token" onclick="doRefreshToken()" />
+<br />
+<ul>
+    <li>http://localhost:3000/api/user/1</li>
+    <li>http://localhost:3000/api/users</li>
+    <li>http://localhost:3000/api/products</li>
+</ul>
+<span id="result"></span>
+
+@section scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            displayToken();
+        })
+
+       
+    </script>
+}

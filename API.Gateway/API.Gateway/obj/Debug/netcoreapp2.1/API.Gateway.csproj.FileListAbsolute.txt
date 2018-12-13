@@ -1,0 +1,16 @@
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\bin\Debug\netcoreapp2.1\API.Gateway.deps.json
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\bin\Debug\netcoreapp2.1\API.Gateway.runtimeconfig.json
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\bin\Debug\netcoreapp2.1\API.Gateway.runtimeconfig.dev.json
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\bin\Debug\netcoreapp2.1\API.Gateway.dll
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\bin\Debug\netcoreapp2.1\API.Gateway.pdb
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.RazorAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.RazorAssemblyInfo.cs
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.AssemblyInfoInputs.cache
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.AssemblyInfo.cs
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.RazorTargetAssemblyInfo.cache
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.dll
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.pdb
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.csprojAssemblyReference.cache
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\bin\Debug\netcoreapp2.1\API.Gateway.Views.dll
+C:\Users\levan\code\blue\API.Gateway\API.Gateway\obj\Debug\netcoreapp2.1\API.Gateway.csproj.CopyComplete
